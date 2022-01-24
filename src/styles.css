@@ -1,0 +1,204 @@
+/* Add application styles & imports to this file! */
+
+/* Login Page */
+@page{
+  position: relative;
+  width: 1441px;
+  height: 1025px;
+  
+  background: #FFFFFF;
+  }
+  
+  /* header_bg */
+  header{
+  position: absolute;
+  width: 1440px;
+  height: 204.8px;
+  left: 0px;
+  top: 0px;
+  
+  background: #000000;
+  }
+  
+  /* footer_bg */
+  footer{
+  position: absolute;
+  width: 1440px;
+  height: 204.8px;
+  left: 0px;
+  top: 819px;
+  
+  background: #000000;
+  }
+  
+  /* title */
+  .title{
+    position: absolute;
+    width: auto;
+    height: 93px;
+    left: 466px;
+    top: 56px;
+    
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 93px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+  }
+  /* copyright */
+  #copyright{
+    position: absolute;
+    width: 441px;
+    height: 35px;
+    left: 246px;
+    top: 50%;
+    
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+  
+    color: #FFFFFF;
+  }
+  
+  /* 沒有帳號？ */
+  .text1{
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  left: 815px;
+  top: 574px;
+  
+  font-family: Noto Sans TC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  
+  color: #000000;
+  }
+  
+  /* 註冊 */
+  #signup{
+  position: absolute;
+  width: 28px;
+  height: 20px;
+  left: 892px;
+  top: 574px;
+  
+  font-family: Noto Sans TC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration-line: underline;
+  
+  color: #0C56D0;
+  }
+  
+  /* Email */
+  input[type="text"]{
+  position: absolute;
+  width: 404px;
+  height: 30px;
+  left: 516px;
+  top: 403px;
+  
+  /* input */
+  
+  right: 0%;
+  bottom: 0%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+  
+  font-family: Noto Sans TC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+  }
+  
+  /* password */
+  input[type="password"]{
+  position: absolute;
+  width: 404px;
+  height: 30px;
+  left: 516px;
+  top: 462px;
+  
+  /* input */
+  right: 0%;
+  bottom: 0%;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+  
+  font-family: Noto Sans TC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+  }
+  
+  /* Button */
+  input[type="button"]{
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 24px;
+  
+  width: 404px;
+  height: 36px;
+  left: 516px;
+  top: 521px;
+  
+  background: #0C56D0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  
+  
+  /* Button */
+  
+  position: static;
+  right: 45.54%;
+  bottom: 13.89%;
+  
+  font-family: Noto Sans TC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height */
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  }
